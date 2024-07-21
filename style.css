@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: Raleway;
 }
 
@@ -112,27 +112,8 @@ body {
 .popular-list {
   display: flex;
   gap: 20px;
-}
-
-.popular-item {
-  background: #efefef;
-  border-radius: 10px;
-  padding-top: 160px;
-  padding-bottom: 160px;
-  padding-left: 70px;
-  width: 800px;
-}
-
-.popular-item:nth-child(1) {
-  background-image: url(./image/ica2.webp);
-  background-repeat: no-repeat;
-  background-position: 77%;
-}
-
-.popular-item:nth-child(2) {
-  background-image: url(./image/ica3.webp);
-  background-repeat: no-repeat;
-  background-position: 77%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .popular-title {
